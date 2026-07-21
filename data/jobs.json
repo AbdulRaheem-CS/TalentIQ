@@ -1,0 +1,242 @@
+[
+  {
+    "id": "JOB-001",
+    "title": "Senior Software Engineer, Platform",
+    "department": "Engineering",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Senior",
+    "status": "Open",
+    "postedDate": "2025-04-14",
+    "hiringManagerId": "EMP-010",
+    "openings": 2,
+    "applicantCount": 3,
+    "description": "Own core platform services powering billing, auth, and tenant provisioning for every TalentIQ customer. You'll work closely with Diego's team to harden the multi-tenant architecture as we scale past 500 enterprise accounts.",
+    "requirements": [
+      "6+ years building backend services in a production environment",
+      "Experience with distributed systems and service-to-service auth",
+      "Comfortable owning on-call rotation for critical infrastructure"
+    ],
+    "salaryRange": {
+      "min": 150000,
+      "max": 190000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-002",
+    "title": "Product Manager, Growth",
+    "department": "Product",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Mid",
+    "status": "Open",
+    "postedDate": "2025-05-02",
+    "hiringManagerId": "EMP-003",
+    "openings": 1,
+    "applicantCount": 2,
+    "description": "Drive activation and expansion experiments across the self-serve funnel. You'll partner with Marketing and Design to increase trial-to-paid conversion and reduce time-to-first-value for new HR teams.",
+    "requirements": [
+      "3+ years of PM experience with a growth or activation focus",
+      "Comfortable running quantitative experiments and reading SQL",
+      "Strong written communication for cross-functional alignment"
+    ],
+    "salaryRange": {
+      "min": 120000,
+      "max": 150000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-003",
+    "title": "Account Executive, Enterprise",
+    "department": "Sales",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "Mid",
+    "status": "Open",
+    "postedDate": "2025-03-20",
+    "hiringManagerId": "EMP-022",
+    "openings": 3,
+    "applicantCount": 3,
+    "description": "Run full-cycle sales into HR and Talent Acquisition leaders at 1,000+ employee companies. You'll inherit a warm pipeline from our SDR team and work alongside Camille's top-performing enterprise pod.",
+    "requirements": [
+      "4+ years closing enterprise SaaS deals over $50K ACV",
+      "Experience selling to HR, Talent, or People Ops buyers a plus",
+      "Track record of consistently hitting or exceeding quota"
+    ],
+    "salaryRange": {
+      "min": 90000,
+      "max": 110000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-004",
+    "title": "Product Designer",
+    "department": "Design",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Mid",
+    "status": "Filled",
+    "postedDate": "2025-02-11",
+    "hiringManagerId": "EMP-004",
+    "openings": 1,
+    "applicantCount": 2,
+    "description": "Design end-to-end flows for the ATS pipeline and analytics dashboards. You'll partner directly with Nadia and engineering to bring the design system to new parts of the product.",
+    "requirements": [
+      "3+ years of product design experience",
+      "Portfolio showing complex data or workflow-heavy interfaces",
+      "Fluent in Figma and collaborative design systems work"
+    ],
+    "salaryRange": {
+      "min": 115000,
+      "max": 140000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-005",
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "location": "Toronto",
+    "employmentType": "Full-time",
+    "level": "Mid",
+    "status": "Open",
+    "postedDate": "2025-04-01",
+    "hiringManagerId": "EMP-032",
+    "openings": 2,
+    "applicantCount": 3,
+    "description": "Own onboarding and renewal for a portfolio of mid-market and enterprise accounts. You'll join Aisha's team, which posted a 96% renewal rate last year.",
+    "requirements": [
+      "3+ years in a customer success or account management role",
+      "Experience managing a portfolio of 20+ B2B SaaS accounts",
+      "Comfortable leading QBRs with VP- and C-level stakeholders"
+    ],
+    "salaryRange": {
+      "min": 85000,
+      "max": 105000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-006",
+    "title": "Technical Recruiter",
+    "department": "People",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Mid",
+    "status": "On Hold",
+    "postedDate": "2025-01-22",
+    "hiringManagerId": "EMP-008",
+    "openings": 1,
+    "applicantCount": 2,
+    "description": "Partner with Engineering leadership to build a scalable, high-signal interview process as we double the engineering org over the next 18 months. Paused pending Q3 headcount approval.",
+    "requirements": [
+      "3+ years recruiting for engineering roles in-house",
+      "Experience building structured interview loops and scorecards",
+      "Comfortable advising hiring managers on leveling and offers"
+    ],
+    "salaryRange": {
+      "min": 95000,
+      "max": 120000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-007",
+    "title": "Staff Software Engineer, Backend",
+    "department": "Engineering",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Staff",
+    "status": "Open",
+    "postedDate": "2025-05-15",
+    "hiringManagerId": "EMP-011",
+    "openings": 1,
+    "applicantCount": 3,
+    "description": "Set technical direction for the candidate-scoring and analytics services that power TalentIQ's AI insights. This is a hands-on, high-autonomy staff role with no direct reports.",
+    "requirements": [
+      "8+ years of backend engineering experience",
+      "Track record leading architecture decisions across multiple teams",
+      "Experience with event-driven systems and data pipelines"
+    ],
+    "salaryRange": {
+      "min": 175000,
+      "max": 215000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-008",
+    "title": "Marketing Manager, Demand Generation",
+    "department": "Marketing",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "status": "Open",
+    "postedDate": "2025-03-11",
+    "hiringManagerId": "EMP-006",
+    "openings": 1,
+    "applicantCount": 2,
+    "description": "Own the paid and lifecycle demand generation engine, reporting to Talia. You'll manage Felix and set the strategy behind our pipeline targets for the back half of the year.",
+    "requirements": [
+      "5+ years in B2B SaaS demand generation",
+      "Experience owning a paid media budget of $500K+ annually",
+      "Strong grasp of marketing attribution and lifecycle nurture"
+    ],
+    "salaryRange": {
+      "min": 125000,
+      "max": 150000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-009",
+    "title": "Financial Analyst",
+    "department": "Finance",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Mid",
+    "status": "Filled",
+    "postedDate": "2025-01-08",
+    "hiringManagerId": "EMP-039",
+    "openings": 1,
+    "applicantCount": 1,
+    "description": "Support headcount planning, board reporting, and monthly close alongside Beatrice's team as Finance scales its operating cadence.",
+    "requirements": [
+      "2+ years of FP&A or corporate finance experience",
+      "Advanced Excel/Sheets modeling skills",
+      "SaaS metrics fluency (ARR, NRR, CAC payback)"
+    ],
+    "salaryRange": {
+      "min": 95000,
+      "max": 115000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "JOB-010",
+    "title": "Sales Development Representative",
+    "department": "Sales",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Entry",
+    "status": "Open",
+    "postedDate": "2025-05-20",
+    "hiringManagerId": "EMP-023",
+    "openings": 2,
+    "applicantCount": 5,
+    "description": "Generate qualified pipeline for the mid-market sales team under Elena. A strong track for promotion into a closing role within 12-18 months for reps who hit ramp targets.",
+    "requirements": [
+      "1+ years in a sales, support, or customer-facing role",
+      "Excellent written and verbal communication",
+      "Coachable, organized, and comfortable with outbound prospecting"
+    ],
+    "salaryRange": {
+      "min": 55000,
+      "max": 65000,
+      "currency": "USD"
+    }
+  }
+]

@@ -1,0 +1,296 @@
+{
+  "id": "EMP-001",
+  "name": "Jordan Ellison",
+  "title": "Chief Executive Officer",
+  "department": "Executive",
+  "children": [
+    {
+      "id": "EMP-002",
+      "name": "Priya Natarajan",
+      "title": "VP of Engineering",
+      "department": "Engineering",
+      "children": [
+        {
+          "id": "EMP-010",
+          "name": "Diego Alvarez",
+          "title": "Engineering Manager, Platform",
+          "department": "Engineering",
+          "children": [
+            {
+              "id": "EMP-012",
+              "name": "Wei Chen",
+              "title": "Senior Software Engineer",
+              "department": "Engineering",
+              "children": []
+            },
+            {
+              "id": "EMP-013",
+              "name": "Amara Okafor",
+              "title": "Software Engineer",
+              "department": "Engineering",
+              "children": []
+            },
+            {
+              "id": "EMP-014",
+              "name": "Lucas Ferreira",
+              "title": "Software Engineer II",
+              "department": "Engineering",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "EMP-011",
+          "name": "Hannah Kessler",
+          "title": "Engineering Manager, Product Engineering",
+          "department": "Engineering",
+          "children": [
+            {
+              "id": "EMP-015",
+              "name": "Ravi Subramaniam",
+              "title": "Senior Software Engineer",
+              "department": "Engineering",
+              "children": []
+            },
+            {
+              "id": "EMP-016",
+              "name": "Zoe Whitfield",
+              "title": "Software Engineer",
+              "department": "Engineering",
+              "children": []
+            },
+            {
+              "id": "EMP-017",
+              "name": "Tomas Novak",
+              "title": "QA Engineer",
+              "department": "Engineering",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EMP-003",
+      "name": "Marcus Delacroix",
+      "title": "VP of Product",
+      "department": "Product",
+      "children": [
+        {
+          "id": "EMP-004",
+          "name": "Nadia Farouk",
+          "title": "Head of Design",
+          "department": "Design",
+          "children": [
+            {
+              "id": "EMP-020",
+              "name": "Owen Callahan",
+              "title": "Senior Product Designer",
+              "department": "Design",
+              "children": []
+            },
+            {
+              "id": "EMP-021",
+              "name": "Leilani Kahale",
+              "title": "Product Designer",
+              "department": "Design",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "EMP-018",
+          "name": "Ingrid Solberg",
+          "title": "Senior Product Manager",
+          "department": "Product",
+          "children": []
+        },
+        {
+          "id": "EMP-019",
+          "name": "Devon Wexler",
+          "title": "Product Manager",
+          "department": "Product",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "EMP-005",
+      "name": "Bradford Simms",
+      "title": "VP of Sales",
+      "department": "Sales",
+      "children": [
+        {
+          "id": "EMP-022",
+          "name": "Camille Rousseau",
+          "title": "Sales Manager, Enterprise",
+          "department": "Sales",
+          "children": [
+            {
+              "id": "EMP-024",
+              "name": "Trevor Njoroge",
+              "title": "Account Executive",
+              "department": "Sales",
+              "children": []
+            },
+            {
+              "id": "EMP-025",
+              "name": "Sofia Marchetti",
+              "title": "Account Executive",
+              "department": "Sales",
+              "children": []
+            },
+            {
+              "id": "EMP-026",
+              "name": "Kai Anderson",
+              "title": "Sales Development Representative",
+              "department": "Sales",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "EMP-023",
+          "name": "Elena Petrova",
+          "title": "Sales Manager, Mid-Market",
+          "department": "Sales",
+          "children": [
+            {
+              "id": "EMP-027",
+              "name": "Marcus Hollingsworth",
+              "title": "Account Executive",
+              "department": "Sales",
+              "children": []
+            },
+            {
+              "id": "EMP-028",
+              "name": "Priyanka Reddy",
+              "title": "Sales Development Representative",
+              "department": "Sales",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EMP-006",
+      "name": "Talia Bergstrom",
+      "title": "VP of Marketing",
+      "department": "Marketing",
+      "children": [
+        {
+          "id": "EMP-029",
+          "name": "Nathaniel Osei",
+          "title": "Marketing Manager",
+          "department": "Marketing",
+          "children": [
+            {
+              "id": "EMP-030",
+              "name": "Ruby Sinclair",
+              "title": "Content Marketing Specialist",
+              "department": "Marketing",
+              "children": []
+            },
+            {
+              "id": "EMP-031",
+              "name": "Felix Andersson",
+              "title": "Demand Generation Specialist",
+              "department": "Marketing",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EMP-007",
+      "name": "Gabriel Mendoza",
+      "title": "VP of Customer Success",
+      "department": "Customer Success",
+      "children": [
+        {
+          "id": "EMP-032",
+          "name": "Aisha Rahman",
+          "title": "Customer Success Manager Lead",
+          "department": "Customer Success",
+          "children": [
+            {
+              "id": "EMP-033",
+              "name": "Connor Blackwood",
+              "title": "Customer Success Manager",
+              "department": "Customer Success",
+              "children": []
+            },
+            {
+              "id": "EMP-034",
+              "name": "Yuki Tanaka",
+              "title": "Customer Success Manager",
+              "department": "Customer Success",
+              "children": []
+            },
+            {
+              "id": "EMP-035",
+              "name": "Malik Thompson",
+              "title": "Support Engineer",
+              "department": "Customer Success",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EMP-008",
+      "name": "Simone Delacourt",
+      "title": "VP of People",
+      "department": "People",
+      "children": [
+        {
+          "id": "EMP-036",
+          "name": "Oliver Whitmore",
+          "title": "People Partner",
+          "department": "People",
+          "children": []
+        },
+        {
+          "id": "EMP-037",
+          "name": "Jasmine Cole",
+          "title": "Technical Recruiter",
+          "department": "People",
+          "children": []
+        },
+        {
+          "id": "EMP-038",
+          "name": "Ahmed Hassan",
+          "title": "Recruiter",
+          "department": "People",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "EMP-009",
+      "name": "Richard Ashworth",
+      "title": "Chief Financial Officer",
+      "department": "Finance",
+      "children": [
+        {
+          "id": "EMP-039",
+          "name": "Beatrice Lindqvist",
+          "title": "Finance Manager",
+          "department": "Finance",
+          "children": [
+            {
+              "id": "EMP-040",
+              "name": "Noah Grunewald",
+              "title": "Financial Analyst",
+              "department": "Finance",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "department": "Engineering",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Complete codebase onboarding walkthrough with your team",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "Sales",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Complete CRM and deal-desk training",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "Design",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Get access to the design system library and Figma workspace",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "Customer Success",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Shadow three live customer calls",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "Finance",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Get access to the financial reporting suite",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "Marketing",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Get access to the campaign and analytics dashboards",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "People",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Shadow an intake call and review the ATS workflow",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  },
+  {
+    "department": "Product",
+    "tasks": [
+      "Complete I-9 and W-4 paperwork",
+      "Laptop and equipment provisioned",
+      "Attend new hire orientation",
+      "Meet with onboarding buddy",
+      "Enroll in payroll and benefits",
+      "Complete a product walkthrough with design and engineering leads",
+      "Complete 30-day check-in with manager",
+      "Complete 90-day performance review"
+    ]
+  }
+]

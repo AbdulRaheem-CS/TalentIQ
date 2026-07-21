@@ -1,0 +1,386 @@
+[
+  {
+    "department": "Engineering",
+    "genderBreakdown": {
+      "women": 32,
+      "men": 64,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 24,
+    "leadershipDiversityPercentage": 22,
+    "yoyChangePercentage": 3.1,
+    "headcount": 9,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 35
+      },
+      {
+        "label": "30-39",
+        "percentage": 45
+      },
+      {
+        "label": "40-49",
+        "percentage": 15
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 11
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 22
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 33
+      },
+      {
+        "label": "5+ years",
+        "percentage": 33
+      }
+    ]
+  },
+  {
+    "department": "Product",
+    "genderBreakdown": {
+      "women": 44,
+      "men": 52,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 33,
+    "leadershipDiversityPercentage": 40,
+    "yoyChangePercentage": 1.8,
+    "headcount": 3,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 25
+      },
+      {
+        "label": "30-39",
+        "percentage": 50
+      },
+      {
+        "label": "40-49",
+        "percentage": 20
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 0
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 33
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 33
+      },
+      {
+        "label": "5+ years",
+        "percentage": 33
+      }
+    ]
+  },
+  {
+    "department": "Design",
+    "genderBreakdown": {
+      "women": 56,
+      "men": 40,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 44,
+    "leadershipDiversityPercentage": 50,
+    "yoyChangePercentage": 2.4,
+    "headcount": 3,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 40
+      },
+      {
+        "label": "30-39",
+        "percentage": 40
+      },
+      {
+        "label": "40-49",
+        "percentage": 15
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 0
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 33
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 33
+      },
+      {
+        "label": "5+ years",
+        "percentage": 33
+      }
+    ]
+  },
+  {
+    "department": "Sales",
+    "genderBreakdown": {
+      "women": 38,
+      "men": 58,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 29,
+    "leadershipDiversityPercentage": 25,
+    "yoyChangePercentage": -0.5,
+    "headcount": 8,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 40
+      },
+      {
+        "label": "30-39",
+        "percentage": 40
+      },
+      {
+        "label": "40-49",
+        "percentage": 15
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 25
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 38
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 13
+      },
+      {
+        "label": "5+ years",
+        "percentage": 25
+      }
+    ]
+  },
+  {
+    "department": "Marketing",
+    "genderBreakdown": {
+      "women": 61,
+      "men": 35,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 42,
+    "leadershipDiversityPercentage": 55,
+    "yoyChangePercentage": 4.2,
+    "headcount": 4,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 35
+      },
+      {
+        "label": "30-39",
+        "percentage": 40
+      },
+      {
+        "label": "40-49",
+        "percentage": 20
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 25
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 25
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 25
+      },
+      {
+        "label": "5+ years",
+        "percentage": 25
+      }
+    ]
+  },
+  {
+    "department": "Customer Success",
+    "genderBreakdown": {
+      "women": 52,
+      "men": 44,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 38,
+    "leadershipDiversityPercentage": 35,
+    "yoyChangePercentage": 1.1,
+    "headcount": 5,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 35
+      },
+      {
+        "label": "30-39",
+        "percentage": 40
+      },
+      {
+        "label": "40-49",
+        "percentage": 20
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 40
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 20
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 20
+      },
+      {
+        "label": "5+ years",
+        "percentage": 20
+      }
+    ]
+  },
+  {
+    "department": "People",
+    "genderBreakdown": {
+      "women": 68,
+      "men": 28,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 45,
+    "leadershipDiversityPercentage": 60,
+    "yoyChangePercentage": 0.9,
+    "headcount": 4,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 25
+      },
+      {
+        "label": "30-39",
+        "percentage": 45
+      },
+      {
+        "label": "40-49",
+        "percentage": 25
+      },
+      {
+        "label": "50+",
+        "percentage": 5
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 25
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 0
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 50
+      },
+      {
+        "label": "5+ years",
+        "percentage": 25
+      }
+    ]
+  },
+  {
+    "department": "Finance",
+    "genderBreakdown": {
+      "women": 41,
+      "men": 55,
+      "nonBinaryOrUndisclosed": 4
+    },
+    "underrepresentedMinorityPercentage": 22,
+    "leadershipDiversityPercentage": 20,
+    "yoyChangePercentage": -1.2,
+    "headcount": 3,
+    "ageRangeBreakdown": [
+      {
+        "label": "20-29",
+        "percentage": 20
+      },
+      {
+        "label": "30-39",
+        "percentage": 40
+      },
+      {
+        "label": "40-49",
+        "percentage": 30
+      },
+      {
+        "label": "50+",
+        "percentage": 10
+      }
+    ],
+    "tenureBreakdown": [
+      {
+        "label": "2-3 years",
+        "percentage": 33
+      },
+      {
+        "label": "3-4 years",
+        "percentage": 0
+      },
+      {
+        "label": "4-5 years",
+        "percentage": 33
+      },
+      {
+        "label": "5+ years",
+        "percentage": 33
+      }
+    ]
+  }
+]

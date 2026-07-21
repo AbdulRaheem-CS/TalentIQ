@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ONB-001",
+    "candidateId": "CAND-027",
+    "employeeName": "Priya Shah",
+    "title": "Software Engineer II",
+    "department": "Engineering",
+    "location": "San Francisco",
+    "startDate": "2025-04-14",
+    "buddy": "Amara Okafor",
+    "managerId": "EMP-010",
+    "status": "Completed",
+    "progressPercentage": 100,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": true,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": true,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": true,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Complete codebase onboarding walkthrough with your team",
+        "completed": true,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": true,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "id": "ONB-002",
+    "candidateId": "CAND-006",
+    "employeeName": "Julia Marchetti",
+    "title": "Account Executive",
+    "department": "Sales",
+    "location": "New York",
+    "startDate": "2025-04-21",
+    "buddy": "Trevor Njoroge",
+    "managerId": "EMP-022",
+    "status": "In Progress",
+    "progressPercentage": 86,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": true,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": true,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": true,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Complete CRM and deal-desk training",
+        "completed": true,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": false,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "id": "ONB-003",
+    "candidateId": "CAND-009",
+    "employeeName": "Sasha Ivanova",
+    "title": "Product Designer",
+    "department": "Design",
+    "location": "Remote - US",
+    "startDate": "2025-04-01",
+    "buddy": "Leilani Kahale",
+    "managerId": "EMP-004",
+    "status": "Completed",
+    "progressPercentage": 100,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": true,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": true,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": true,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Get access to the design system library and Figma workspace",
+        "completed": true,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": true,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "id": "ONB-004",
+    "candidateId": "CAND-011",
+    "employeeName": "Grace Liu",
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "location": "Toronto",
+    "startDate": "2025-04-28",
+    "buddy": "Connor Blackwood",
+    "managerId": "EMP-032",
+    "status": "In Progress",
+    "progressPercentage": 71,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": true,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": true,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": true,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Shadow three live customer calls",
+        "completed": false,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": false,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "id": "ONB-005",
+    "candidateId": "CAND-028",
+    "employeeName": "Marco Bellini",
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "location": "Toronto",
+    "startDate": "2025-05-05",
+    "buddy": "Yuki Tanaka",
+    "managerId": "EMP-032",
+    "status": "In Progress",
+    "progressPercentage": 43,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": true,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": false,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": false,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Shadow three live customer calls",
+        "completed": false,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": false,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "id": "ONB-006",
+    "candidateId": "CAND-021",
+    "employeeName": "Meera Chandran",
+    "title": "Financial Analyst",
+    "department": "Finance",
+    "location": "San Francisco",
+    "startDate": "2025-03-24",
+    "buddy": "Noah Grunewald",
+    "managerId": "EMP-039",
+    "status": "Completed",
+    "progressPercentage": 100,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": true,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": true,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": true,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Get access to the financial reporting suite",
+        "completed": true,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": true,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "id": "ONB-007",
+    "candidateId": "CAND-022",
+    "employeeName": "Dante Russo",
+    "title": "Sales Development Representative",
+    "department": "Sales",
+    "location": "Remote - US",
+    "startDate": "2025-05-12",
+    "buddy": "Priyanka Reddy",
+    "managerId": "EMP-023",
+    "status": "In Progress",
+    "progressPercentage": 29,
+    "checklist": [
+      {
+        "task": "Complete I-9 and W-4 paperwork",
+        "completed": true,
+        "dueDate": "2025-04-10"
+      },
+      {
+        "task": "Laptop and equipment provisioned",
+        "completed": true,
+        "dueDate": "2025-04-13"
+      },
+      {
+        "task": "Attend new hire orientation",
+        "completed": false,
+        "dueDate": "2025-04-16"
+      },
+      {
+        "task": "Meet with onboarding buddy",
+        "completed": false,
+        "dueDate": "2025-05-19"
+      },
+      {
+        "task": "Enroll in payroll and benefits",
+        "completed": false,
+        "dueDate": "2025-05-22"
+      },
+      {
+        "task": "Complete CRM and deal-desk training",
+        "completed": false,
+        "dueDate": "2025-05-25"
+      },
+      {
+        "task": "Complete 30-day check-in with manager",
+        "completed": false,
+        "dueDate": "2025-06-28"
+      }
+    ]
+  }
+]

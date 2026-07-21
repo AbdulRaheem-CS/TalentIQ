@@ -1,0 +1,24 @@
+{
+  "plan": "Enterprise",
+  "pricePerMonth": 2400,
+  "billingCycle": "Monthly",
+  "seatsUsed": 24,
+  "seatsTotal": 30,
+  "renewalDate": "2025-12-01",
+  "features": [
+    "Unlimited job postings",
+    "AI-powered candidate match scoring",
+    "Advanced DEI analytics",
+    "Single sign-on (SSO)",
+    "Dedicated customer success manager",
+    "Priority support with 1-hour response SLA"
+  ],
+  "invoices": [
+    { "id": "INV-2025-006", "date": "2025-06-01", "amount": 2400, "status": "Paid" },
+    { "id": "INV-2025-005", "date": "2025-05-01", "amount": 2400, "status": "Paid" },
+    { "id": "INV-2025-004", "date": "2025-04-01", "amount": 2400, "status": "Paid" },
+    { "id": "INV-2025-003", "date": "2025-03-01", "amount": 2400, "status": "Paid" },
+    { "id": "INV-2025-002", "date": "2025-02-01", "amount": 2400, "status": "Paid" },
+    { "id": "INV-2025-001", "date": "2025-01-01", "amount": 2400, "status": "Paid" }
+  ]
+}

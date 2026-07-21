@@ -1,0 +1,72 @@
+{
+  "payEquity": [
+    {
+      "level": "IC",
+      "ratioLow": 96,
+      "ratioMid": 99,
+      "ratioHigh": 103
+    },
+    {
+      "level": "Senior IC",
+      "ratioLow": 93,
+      "ratioMid": 96,
+      "ratioHigh": 99
+    },
+    {
+      "level": "Manager",
+      "ratioLow": 90,
+      "ratioMid": 94,
+      "ratioHigh": 97
+    },
+    {
+      "level": "Director+",
+      "ratioLow": 88,
+      "ratioMid": 92,
+      "ratioHigh": 96
+    }
+  ],
+  "hiringFunnel": [
+    {
+      "stage": "Applied",
+      "diversePercentage": 46
+    },
+    {
+      "stage": "Screening",
+      "diversePercentage": 43
+    },
+    {
+      "stage": "Interview",
+      "diversePercentage": 39
+    },
+    {
+      "stage": "Offer",
+      "diversePercentage": 37
+    },
+    {
+      "stage": "Hired",
+      "diversePercentage": 35
+    }
+  ],
+  "goals": [
+    {
+      "metric": "Women Representation",
+      "goal": 45,
+      "actual": 46
+    },
+    {
+      "metric": "Underrepresented Minorities",
+      "goal": 35,
+      "actual": 33
+    },
+    {
+      "metric": "Leadership Diversity",
+      "goal": 45,
+      "actual": 35
+    },
+    {
+      "metric": "Director+ Pay Equity",
+      "goal": 97,
+      "actual": 92
+    }
+  ]
+}

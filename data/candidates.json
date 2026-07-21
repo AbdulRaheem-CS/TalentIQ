@@ -1,0 +1,721 @@
+[
+  {
+    "id": "CAND-001",
+    "name": "Miguel Santos",
+    "email": "miguel.santos@mailbox.com",
+    "jobId": "JOB-001",
+    "stage": "Interview",
+    "appliedDate": "2025-05-01",
+    "location": "San Francisco",
+    "currentTitle": "Senior Software Engineer",
+    "currentCompany": "Cloudbase Systems",
+    "yearsOfExperience": 7,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 88,
+      "skills": 92,
+      "experience": 85,
+      "cultureFit": 86
+    },
+    "resumeSummary": "Backend engineer who led the sharding project that took Cloudbase's primary database past 10M rows without a rewrite.",
+    "notes": [
+      {
+        "author": "Diego Alvarez",
+        "date": "2025-05-12",
+        "note": "Strong system design round — walked through a sharding strategy that mapped closely to our billing service problem."
+      },
+      {
+        "author": "Wei Chen",
+        "date": "2025-05-14",
+        "note": "Paired well during the technical exercise; asked good clarifying questions before diving in."
+      }
+    ]
+  },
+  {
+    "id": "CAND-002",
+    "name": "Jenna Park",
+    "email": "jenna.park@mailbox.com",
+    "jobId": "JOB-001",
+    "stage": "Offer",
+    "appliedDate": "2025-04-18",
+    "location": "Oakland",
+    "currentTitle": "Software Engineer III",
+    "currentCompany": "Vantiq Corp",
+    "yearsOfExperience": 8,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 91,
+      "skills": 90,
+      "experience": 94,
+      "cultureFit": 89
+    },
+    "resumeSummary": "Eight years across fintech backend teams, most recently owning Vantiq's payments reconciliation service.",
+    "notes": [
+      {
+        "author": "Priya Natarajan",
+        "date": "2025-05-02",
+        "note": "One of the strongest platform candidates we've seen this year. Verbal offer extended pending comp approval."
+      }
+    ]
+  },
+  {
+    "id": "CAND-003",
+    "name": "Omar Farouk",
+    "email": "omar.farouk@mailbox.com",
+    "jobId": "JOB-001",
+    "stage": "Screening",
+    "appliedDate": "2025-05-20",
+    "location": "Remote",
+    "currentTitle": "Software Engineer",
+    "currentCompany": "Brightline Data",
+    "yearsOfExperience": 4,
+    "source": "Indeed",
+    "matchScore": {
+      "overall": 74,
+      "skills": 78,
+      "experience": 70,
+      "cultureFit": 74
+    },
+    "resumeSummary": "Mid-level engineer with solid Go experience but limited exposure to distributed systems at scale.",
+    "notes": [
+      {
+        "author": "Jasmine Cole",
+        "date": "2025-05-21",
+        "note": "Recruiter screen went well; a bit junior for the leveling but worth a technical screen."
+      }
+    ]
+  },
+  {
+    "id": "CAND-027",
+    "name": "Priya Shah",
+    "email": "priya.shah@mailbox.com",
+    "jobId": "JOB-001",
+    "stage": "Hired",
+    "appliedDate": "2025-03-02",
+    "location": "San Francisco",
+    "currentTitle": "Software Engineer II",
+    "currentCompany": "Cloudbase Systems",
+    "yearsOfExperience": 5,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 88,
+      "skills": 89,
+      "experience": 87,
+      "cultureFit": 88
+    },
+    "resumeSummary": "Referred by Wei Chen; shipped Cloudbase's rate-limiting middleware now used across their entire API gateway.",
+    "notes": [
+      {
+        "author": "Diego Alvarez",
+        "date": "2025-03-25",
+        "note": "Offer accepted. Excellent onsite — particularly strong on the API design exercise."
+      }
+    ]
+  },
+  {
+    "id": "CAND-004",
+    "name": "Rachel Kim",
+    "email": "rachel.kim@mailbox.com",
+    "jobId": "JOB-002",
+    "stage": "Interview",
+    "appliedDate": "2025-05-05",
+    "location": "Denver",
+    "currentTitle": "Growth PM",
+    "currentCompany": "Loopscale",
+    "yearsOfExperience": 5,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 85,
+      "skills": 82,
+      "experience": 88,
+      "cultureFit": 85
+    },
+    "resumeSummary": "Ran the activation experimentation program at Loopscale that lifted trial conversion by 15 points in a year.",
+    "notes": [
+      {
+        "author": "Marcus Delacroix",
+        "date": "2025-05-16",
+        "note": "Sharp on experiment design; wants to see more product sense in the case study round."
+      }
+    ]
+  },
+  {
+    "id": "CAND-005",
+    "name": "Andre Bishop",
+    "email": "andre.bishop@mailbox.com",
+    "jobId": "JOB-002",
+    "stage": "Applied",
+    "appliedDate": "2025-05-26",
+    "location": "Chicago",
+    "currentTitle": "Associate Product Manager",
+    "currentCompany": "Fintrail",
+    "yearsOfExperience": 3,
+    "source": "Company Website",
+    "matchScore": {
+      "overall": 68,
+      "skills": 65,
+      "experience": 70,
+      "cultureFit": 68
+    },
+    "resumeSummary": "Early-career PM with one shipped feature area; resume is light on quantified outcomes.",
+    "notes": []
+  },
+  {
+    "id": "CAND-006",
+    "name": "Julia Marchetti",
+    "email": "julia.marchetti@mailbox.com",
+    "jobId": "JOB-003",
+    "stage": "Hired",
+    "appliedDate": "2025-03-10",
+    "location": "New York",
+    "currentTitle": "Enterprise Account Executive",
+    "currentCompany": "Salesbridge",
+    "yearsOfExperience": 6,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 90,
+      "skills": 87,
+      "experience": 93,
+      "cultureFit": 90
+    },
+    "resumeSummary": "President's Club three years running at Salesbridge, specializing in HR-tech enterprise deals.",
+    "notes": [
+      {
+        "author": "Camille Rousseau",
+        "date": "2025-04-02",
+        "note": "Offer accepted. Best discovery-call demo we ran all quarter — she pre-mapped the buying committee before the call."
+      }
+    ]
+  },
+  {
+    "id": "CAND-007",
+    "name": "Derek Voss",
+    "email": "derek.voss@mailbox.com",
+    "jobId": "JOB-003",
+    "stage": "Interview",
+    "appliedDate": "2025-05-01",
+    "location": "Boston",
+    "currentTitle": "Mid-Market Account Executive",
+    "currentCompany": "Northwind",
+    "yearsOfExperience": 4,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 79,
+      "skills": 75,
+      "experience": 82,
+      "cultureFit": 80
+    },
+    "resumeSummary": "Consistently hits quota at Northwind selling into mid-market operations teams; new to enterprise cycles.",
+    "notes": [
+      {
+        "author": "Camille Rousseau",
+        "date": "2025-05-15",
+        "note": "Good energy, needs to demonstrate he can navigate longer enterprise procurement cycles."
+      }
+    ]
+  },
+  {
+    "id": "CAND-008",
+    "name": "Fatima Al-Sayed",
+    "email": "fatima.alsayed@mailbox.com",
+    "jobId": "JOB-003",
+    "stage": "Rejected",
+    "appliedDate": "2025-04-08",
+    "location": "Remote",
+    "currentTitle": "Sales Development Rep",
+    "currentCompany": "Growthly",
+    "yearsOfExperience": 2,
+    "source": "Indeed",
+    "matchScore": {
+      "overall": 58,
+      "skills": 60,
+      "experience": 55,
+      "cultureFit": 58
+    },
+    "resumeSummary": "Strong SDR metrics but no closing experience; not yet ready for a full-cycle enterprise role.",
+    "notes": [
+      {
+        "author": "Camille Rousseau",
+        "date": "2025-04-20",
+        "note": "Passing for now — encouraged her to apply again once she has closing experience."
+      }
+    ]
+  },
+  {
+    "id": "CAND-009",
+    "name": "Sasha Ivanova",
+    "email": "sasha.ivanova@mailbox.com",
+    "jobId": "JOB-004",
+    "stage": "Hired",
+    "appliedDate": "2025-02-14",
+    "location": "Remote",
+    "currentTitle": "Product Designer",
+    "currentCompany": "Formstack Labs",
+    "yearsOfExperience": 5,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 89,
+      "skills": 91,
+      "experience": 86,
+      "cultureFit": 90
+    },
+    "resumeSummary": "Led the workflow builder redesign at Formstack Labs; portfolio shows strong systems thinking for data-dense UI.",
+    "notes": [
+      {
+        "author": "Nadia Farouk",
+        "date": "2025-03-05",
+        "note": "Offer accepted. Portfolio review was the strongest we've seen this year for data-heavy interfaces."
+      }
+    ]
+  },
+  {
+    "id": "CAND-010",
+    "name": "Ben Okonkwo",
+    "email": "ben.okonkwo@mailbox.com",
+    "jobId": "JOB-004",
+    "stage": "Screening",
+    "appliedDate": "2025-05-22",
+    "location": "Remote",
+    "currentTitle": "UX Designer",
+    "currentCompany": "Pixel & Co",
+    "yearsOfExperience": 3,
+    "source": "Dribbble",
+    "matchScore": {
+      "overall": 71,
+      "skills": 74,
+      "experience": 68,
+      "cultureFit": 70
+    },
+    "resumeSummary": "Strong visual craft, mostly marketing-site work rather than complex product workflows.",
+    "notes": []
+  },
+  {
+    "id": "CAND-011",
+    "name": "Grace Liu",
+    "email": "grace.liu@mailbox.com",
+    "jobId": "JOB-005",
+    "stage": "Hired",
+    "appliedDate": "2025-03-01",
+    "location": "Toronto",
+    "currentTitle": "Customer Success Manager",
+    "currentCompany": "Northbeam",
+    "yearsOfExperience": 4,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 86,
+      "skills": 83,
+      "experience": 88,
+      "cultureFit": 87
+    },
+    "resumeSummary": "Managed a $2.1M book of business at Northbeam with a 94% renewal rate.",
+    "notes": [
+      {
+        "author": "Aisha Rahman",
+        "date": "2025-03-19",
+        "note": "Offer accepted. Handled the mock renewal call role-play better than any candidate we've seen this cycle."
+      }
+    ]
+  },
+  {
+    "id": "CAND-012",
+    "name": "Patrick O'Malley",
+    "email": "patrick.o'malley@mailbox.com",
+    "jobId": "JOB-005",
+    "stage": "Interview",
+    "appliedDate": "2025-05-06",
+    "location": "Toronto",
+    "currentTitle": "Support Specialist",
+    "currentCompany": "Helixware",
+    "yearsOfExperience": 3,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 77,
+      "skills": 74,
+      "experience": 78,
+      "cultureFit": 78
+    },
+    "resumeSummary": "Support background with strong customer rapport; limited experience owning commercial renewal conversations.",
+    "notes": [
+      {
+        "author": "Aisha Rahman",
+        "date": "2025-05-18",
+        "note": "Great bedside manner, wants to see how he handles a pushback scenario in the next round."
+      }
+    ]
+  },
+  {
+    "id": "CAND-013",
+    "name": "Nour Khalil",
+    "email": "nour.khalil@mailbox.com",
+    "jobId": "JOB-005",
+    "stage": "Applied",
+    "appliedDate": "2025-05-24",
+    "location": "Remote",
+    "currentTitle": "Customer Support Rep",
+    "currentCompany": "Zendly",
+    "yearsOfExperience": 2,
+    "source": "Indeed",
+    "matchScore": {
+      "overall": 65,
+      "skills": 62,
+      "experience": 66,
+      "cultureFit": 66
+    },
+    "resumeSummary": "Support rep looking to move into a CSM track; limited account-management experience so far.",
+    "notes": []
+  },
+  {
+    "id": "CAND-028",
+    "name": "Marco Bellini",
+    "email": "marco.bellini@mailbox.com",
+    "jobId": "JOB-005",
+    "stage": "Hired",
+    "appliedDate": "2025-03-15",
+    "location": "Toronto",
+    "currentTitle": "Support Specialist",
+    "currentCompany": "Helixware",
+    "yearsOfExperience": 3,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 82,
+      "skills": 80,
+      "experience": 83,
+      "cultureFit": 84
+    },
+    "resumeSummary": "Internal promote track from support into CSM; deep product knowledge of Helixware's platform from two years in the queue.",
+    "notes": [
+      {
+        "author": "Aisha Rahman",
+        "date": "2025-04-10",
+        "note": "Offer accepted. Impressed the panel with how methodically he triaged a mock at-risk account."
+      }
+    ]
+  },
+  {
+    "id": "CAND-014",
+    "name": "Vanessa Cruz",
+    "email": "vanessa.cruz@mailbox.com",
+    "jobId": "JOB-006",
+    "stage": "Applied",
+    "appliedDate": "2025-02-02",
+    "location": "Remote",
+    "currentTitle": "Technical Recruiter",
+    "currentCompany": "Hireloop",
+    "yearsOfExperience": 4,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 80,
+      "skills": 78,
+      "experience": 82,
+      "cultureFit": 80
+    },
+    "resumeSummary": "Built the engineering interview loop from scratch at Hireloop; comfortable partnering directly with hiring managers.",
+    "notes": [
+      {
+        "author": "Simone Delacourt",
+        "date": "2025-02-10",
+        "note": "Strong profile — on hold pending Q3 headcount approval for this req."
+      }
+    ]
+  },
+  {
+    "id": "CAND-015",
+    "name": "Tobias Reinholt",
+    "email": "tobias.reinholt@mailbox.com",
+    "jobId": "JOB-006",
+    "stage": "Screening",
+    "appliedDate": "2025-02-14",
+    "location": "Remote",
+    "currentTitle": "Recruiting Coordinator",
+    "currentCompany": "Talenza",
+    "yearsOfExperience": 2,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 70,
+      "skills": 68,
+      "experience": 71,
+      "cultureFit": 70
+    },
+    "resumeSummary": "Coordinator looking to step into a full-cycle recruiting role; strong candidate-experience instincts.",
+    "notes": []
+  },
+  {
+    "id": "CAND-016",
+    "name": "Emeka Obi",
+    "email": "emeka.obi@mailbox.com",
+    "jobId": "JOB-007",
+    "stage": "Interview",
+    "appliedDate": "2025-05-18",
+    "location": "Remote",
+    "currentTitle": "Staff Engineer",
+    "currentCompany": "Corebase",
+    "yearsOfExperience": 9,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 93,
+      "skills": 96,
+      "experience": 92,
+      "cultureFit": 90
+    },
+    "resumeSummary": "Set the event-driven architecture for Corebase's data platform, now processing 40B events per month.",
+    "notes": [
+      {
+        "author": "Hannah Kessler",
+        "date": "2025-05-28",
+        "note": "Exceptional architecture round — his event-bus experience maps directly onto our candidate-scoring roadmap."
+      }
+    ]
+  },
+  {
+    "id": "CAND-017",
+    "name": "Chloe Bennett",
+    "email": "chloe.bennett@mailbox.com",
+    "jobId": "JOB-007",
+    "stage": "Applied",
+    "appliedDate": "2025-05-25",
+    "location": "Seattle",
+    "currentTitle": "Senior Software Engineer",
+    "currentCompany": "DataForge",
+    "yearsOfExperience": 6,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 72,
+      "skills": 76,
+      "experience": 68,
+      "cultureFit": 71
+    },
+    "resumeSummary": "Solid senior engineer background; would be a level-down from the staff scope of this role.",
+    "notes": []
+  },
+  {
+    "id": "CAND-018",
+    "name": "Hiroshi Yamada",
+    "email": "hiroshi.yamada@mailbox.com",
+    "jobId": "JOB-007",
+    "stage": "Rejected",
+    "appliedDate": "2025-04-22",
+    "location": "Remote",
+    "currentTitle": "Software Engineer",
+    "currentCompany": "NimbusStack",
+    "yearsOfExperience": 5,
+    "source": "Indeed",
+    "matchScore": {
+      "overall": 61,
+      "skills": 66,
+      "experience": 58,
+      "cultureFit": 58
+    },
+    "resumeSummary": "Capable generalist but lacks the systems-architecture depth this staff-level req requires.",
+    "notes": [
+      {
+        "author": "Hannah Kessler",
+        "date": "2025-05-02",
+        "note": "Good engineer, wrong level for this req — encouraged him to apply to the senior platform opening instead."
+      }
+    ]
+  },
+  {
+    "id": "CAND-019",
+    "name": "Isabella Conti",
+    "email": "isabella.conti@mailbox.com",
+    "jobId": "JOB-008",
+    "stage": "Offer",
+    "appliedDate": "2025-04-02",
+    "location": "Remote",
+    "currentTitle": "Demand Gen Lead",
+    "currentCompany": "Marketrix",
+    "yearsOfExperience": 6,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 87,
+      "skills": 84,
+      "experience": 89,
+      "cultureFit": 88
+    },
+    "resumeSummary": "Owns a $1.2M paid media budget at Marketrix with a documented 3.4x pipeline ROI.",
+    "notes": [
+      {
+        "author": "Talia Bergstrom",
+        "date": "2025-04-24",
+        "note": "Offer extended — her attribution modeling experience is exactly the gap on our team today."
+      }
+    ]
+  },
+  {
+    "id": "CAND-020",
+    "name": "Colin Baxter",
+    "email": "colin.baxter@mailbox.com",
+    "jobId": "JOB-008",
+    "stage": "Interview",
+    "appliedDate": "2025-04-20",
+    "location": "Remote",
+    "currentTitle": "Marketing Manager",
+    "currentCompany": "Reachly",
+    "yearsOfExperience": 5,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 76,
+      "skills": 73,
+      "experience": 77,
+      "cultureFit": 78
+    },
+    "resumeSummary": "Solid all-around marketing manager; less specialized in paid demand gen than the role calls for.",
+    "notes": [
+      {
+        "author": "Talia Bergstrom",
+        "date": "2025-05-06",
+        "note": "Good generalist but Isabella is further ahead on the specific paid-media scope we need."
+      }
+    ]
+  },
+  {
+    "id": "CAND-021",
+    "name": "Meera Chandran",
+    "email": "meera.chandran@mailbox.com",
+    "jobId": "JOB-009",
+    "stage": "Hired",
+    "appliedDate": "2025-02-01",
+    "location": "San Francisco",
+    "currentTitle": "Financial Analyst",
+    "currentCompany": "Ledgerworks",
+    "yearsOfExperience": 3,
+    "source": "Company Website",
+    "matchScore": {
+      "overall": 84,
+      "skills": 82,
+      "experience": 85,
+      "cultureFit": 85
+    },
+    "resumeSummary": "Built the SaaS metrics dashboard used company-wide at Ledgerworks; strong modeling and communication skills.",
+    "notes": [
+      {
+        "author": "Beatrice Lindqvist",
+        "date": "2025-02-20",
+        "note": "Offer accepted. Excel modeling exercise was the cleanest we've seen — no formula errors, clear structure."
+      }
+    ]
+  },
+  {
+    "id": "CAND-022",
+    "name": "Dante Russo",
+    "email": "dante.russo@mailbox.com",
+    "jobId": "JOB-010",
+    "stage": "Hired",
+    "appliedDate": "2025-04-01",
+    "location": "Remote",
+    "currentTitle": "Sales Development Rep",
+    "currentCompany": "Outreach Labs",
+    "yearsOfExperience": 2,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 79,
+      "skills": 75,
+      "experience": 78,
+      "cultureFit": 84
+    },
+    "resumeSummary": "Top-quartile SDR at Outreach Labs with a 32% meeting-to-opportunity conversion rate.",
+    "notes": [
+      {
+        "author": "Elena Petrova",
+        "date": "2025-04-16",
+        "note": "Offer accepted. Roleplay was excellent — handled three objections in a row without losing rapport."
+      }
+    ]
+  },
+  {
+    "id": "CAND-023",
+    "name": "Keisha Brown",
+    "email": "keisha.brown@mailbox.com",
+    "jobId": "JOB-010",
+    "stage": "Interview",
+    "appliedDate": "2025-05-10",
+    "location": "Remote",
+    "currentTitle": "Business Development Rep",
+    "currentCompany": "Salesloop",
+    "yearsOfExperience": 2,
+    "source": "LinkedIn",
+    "matchScore": {
+      "overall": 75,
+      "skills": 72,
+      "experience": 74,
+      "cultureFit": 78
+    },
+    "resumeSummary": "Solid outbound track record; coachable and organized in her prospecting cadence.",
+    "notes": [
+      {
+        "author": "Elena Petrova",
+        "date": "2025-05-20",
+        "note": "Good energy in the phone screen, moving to a roleplay round."
+      }
+    ]
+  },
+  {
+    "id": "CAND-024",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta@mailbox.com",
+    "jobId": "JOB-010",
+    "stage": "Applied",
+    "appliedDate": "2025-05-27",
+    "location": "Remote",
+    "currentTitle": "Customer Support Rep",
+    "currentCompany": "Growthly",
+    "yearsOfExperience": 1,
+    "source": "Indeed",
+    "matchScore": {
+      "overall": 64,
+      "skills": 60,
+      "experience": 63,
+      "cultureFit": 68
+    },
+    "resumeSummary": "No direct sales experience yet, but strong communication skills from a customer support background.",
+    "notes": []
+  },
+  {
+    "id": "CAND-025",
+    "name": "Lena Fischer",
+    "email": "lena.fischer@mailbox.com",
+    "jobId": "JOB-010",
+    "stage": "Screening",
+    "appliedDate": "2025-05-15",
+    "location": "Remote",
+    "currentTitle": "Sales Development Rep",
+    "currentCompany": "Northwind",
+    "yearsOfExperience": 2,
+    "source": "Referral",
+    "matchScore": {
+      "overall": 69,
+      "skills": 67,
+      "experience": 68,
+      "cultureFit": 71
+    },
+    "resumeSummary": "Currently an SDR at Northwind; activity metrics are average relative to her team.",
+    "notes": []
+  },
+  {
+    "id": "CAND-026",
+    "name": "Samuel Osei",
+    "email": "samuel.osei@mailbox.com",
+    "jobId": "JOB-010",
+    "stage": "Rejected",
+    "appliedDate": "2025-04-28",
+    "location": "Remote",
+    "currentTitle": "Retail Associate",
+    "currentCompany": "BrightMart",
+    "yearsOfExperience": 1,
+    "source": "Indeed",
+    "matchScore": {
+      "overall": 55,
+      "skills": 58,
+      "experience": 52,
+      "cultureFit": 55
+    },
+    "resumeSummary": "Transitioning from retail into tech sales; enthusiastic but no transferable outbound experience yet.",
+    "notes": [
+      {
+        "author": "Elena Petrova",
+        "date": "2025-05-08",
+        "note": "Passing for now — worth reconsidering once he has some SDR ramp elsewhere."
+      }
+    ]
+  }
+]

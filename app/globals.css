@@ -3,21 +3,193 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ---------------------------------------------------------------- */
+  /* Brand scale — deep navy/indigo. Primary actions, nav, brand marks */
+  /* ---------------------------------------------------------------- */
+  --navy-50: 228 100% 97%;
+  --navy-100: 226 100% 94%;
+  --navy-200: 225 96% 88%;
+  --navy-300: 224 91% 79%;
+  --navy-400: 224 82% 65%;
+  --navy-500: 224 71% 53%;
+  --navy-600: 225 65% 42%;
+  --navy-700: 226 62% 33%;
+  --navy-800: 227 58% 24%;
+  --navy-900: 228 55% 15%;
+  --navy-950: 229 50% 8%;
+
+  /* ---------------------------------------------------------------- */
+  /* Neutrals — cool slate, tuned to the same hue family as navy       */
+  /* ---------------------------------------------------------------- */
+  --slate-50: 210 40% 98%;
+  --slate-100: 210 35% 95%;
+  --slate-200: 214 30% 91%;
+  --slate-300: 213 22% 84%;
+  --slate-400: 215 16% 65%;
+  --slate-500: 215 14% 50%;
+  --slate-600: 215 16% 38%;
+  --slate-700: 217 19% 27%;
+  --slate-800: 217 22% 17%;
+  --slate-900: 219 25% 11%;
+  --slate-950: 222 30% 6%;
+
+  /* ---------------------------------------------------------------- */
+  /* Violet — reserved EXCLUSIVELY for AI surfaces (copilot, insights,  */
+  /* AI badges/buttons). Never used for general UI accents.            */
+  /* ---------------------------------------------------------------- */
+  --violet-50: 270 100% 98%;
+  --violet-100: 268 100% 95%;
+  --violet-200: 267 96% 90%;
+  --violet-300: 266 92% 82%;
+  --violet-400: 266 85% 70%;
+  --violet-500: 265 83% 60%;
+  --violet-600: 264 70% 50%;
+  --violet-700: 263 68% 42%;
+  --violet-800: 263 65% 33%;
+  --violet-900: 264 60% 24%;
+  --violet-950: 265 55% 14%;
+
+  /* Status colors — dual purpose: readable as text and usable as tints */
+  --success: 152 60% 32%;
+  --success-foreground: 0 0% 100%;
+  --warning: 32 85% 38%;
+  --warning-foreground: 0 0% 100%;
+  --danger: 358 65% 45%;
+  --danger-foreground: 0 0% 100%;
+  --info: 199 75% 40%;
+  --info-foreground: 0 0% 100%;
+
+  /* ---------------------------------------------------------------- */
+  /* Semantic tokens — light mode                                      */
+  /* ---------------------------------------------------------------- */
+  --background: var(--slate-50);
+  --foreground: var(--slate-900);
+  --card: 0 0% 100%;
+  --card-foreground: var(--slate-900);
+  --popover: 0 0% 100%;
+  --popover-foreground: var(--slate-900);
+  --border: var(--slate-200);
+  --input: var(--slate-200);
+  --ring: var(--navy-500);
+  --primary: var(--navy-600);
+  --primary-foreground: 0 0% 100%;
+  --secondary: var(--slate-100);
+  --secondary-foreground: var(--slate-900);
+  --muted: var(--slate-100);
+  --muted-foreground: var(--slate-500);
+  --accent: var(--violet-500);
+  --accent-foreground: 0 0% 100%;
+
+  /* ---------------------------------------------------------------- */
+  /* Spacing tokens                                                     */
+  /* ---------------------------------------------------------------- */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* ---------------------------------------------------------------- */
+  /* Radius tokens                                                      */
+  /* ---------------------------------------------------------------- */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.75rem;
+
+  /* ---------------------------------------------------------------- */
+  /* Shadow tokens — layered, low-opacity elevation + AI glow variants  */
+  /* ---------------------------------------------------------------- */
+  --shadow-xs: 0 1px 2px 0 rgb(15 23 42 / 0.04);
+  --shadow-sm: 0 1px 3px 0 rgb(15 23 42 / 0.06), 0 1px 2px -1px rgb(15 23 42 / 0.05);
+  --shadow-md: 0 4px 10px -2px rgb(15 23 42 / 0.08), 0 2px 6px -3px rgb(15 23 42 / 0.06);
+  --shadow-lg: 0 14px 28px -8px rgb(15 23 42 / 0.12), 0 6px 12px -6px rgb(15 23 42 / 0.08);
+  --shadow-xl: 0 26px 52px -14px rgb(15 23 42 / 0.18), 0 10px 20px -8px rgb(15 23 42 / 0.10);
+  --shadow-glow-violet: 0 0 0 1px rgb(139 61 246 / 0.18), 0 8px 28px -4px rgb(139 61 246 / 0.38);
+  --shadow-glow-navy: 0 0 0 1px rgb(37 56 133 / 0.10), 0 10px 24px -8px rgb(37 56 133 / 0.30);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: var(--slate-950);
+  --foreground: var(--slate-100);
+  --card: var(--slate-900);
+  --card-foreground: var(--slate-100);
+  --popover: var(--slate-800);
+  --popover-foreground: var(--slate-100);
+  --border: var(--slate-700);
+  --input: var(--slate-800);
+  --ring: var(--navy-400);
+  --primary: var(--navy-400);
+  --primary-foreground: var(--navy-950);
+  --secondary: var(--slate-800);
+  --secondary-foreground: var(--slate-100);
+  --muted: var(--slate-800);
+  --muted-foreground: var(--slate-400);
+  --accent: var(--violet-400);
+  --accent-foreground: var(--navy-950);
+
+  --success: 152 55% 55%;
+  --success-foreground: 152 60% 10%;
+  --warning: 32 90% 60%;
+  --warning-foreground: 32 45% 10%;
+  --danger: 358 75% 62%;
+  --danger-foreground: 0 0% 100%;
+  --info: 199 80% 60%;
+  --info-foreground: 199 60% 10%;
+
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.30);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.36), 0 1px 2px -1px rgb(0 0 0 / 0.30);
+  --shadow-md: 0 4px 10px -2px rgb(0 0 0 / 0.45), 0 2px 6px -3px rgb(0 0 0 / 0.35);
+  --shadow-lg: 0 14px 28px -8px rgb(0 0 0 / 0.55), 0 6px 12px -6px rgb(0 0 0 / 0.40);
+  --shadow-xl: 0 26px 52px -14px rgb(0 0 0 / 0.65), 0 10px 20px -8px rgb(0 0 0 / 0.45);
+  --shadow-glow-violet: 0 0 0 1px rgb(167 139 250 / 0.30), 0 8px 32px -4px rgb(167 139 250 / 0.45);
+  --shadow-glow-navy: 0 0 0 1px rgb(96 130 255 / 0.18), 0 10px 28px -6px rgb(37 56 133 / 0.50);
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+  font-feature-settings: "cv11", "ss01", "cv02", "cv03", "cv04";
+  font-variant-ligatures: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: hsl(var(--navy-500) / 0.25);
+  color: hsl(var(--foreground));
+}
+
+/* Thin, unobtrusive scrollbars that match the neutral palette */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--slate-300));
+  border-radius: 9999px;
+  border: 2px solid hsl(var(--background));
+}
+.dark ::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--slate-700));
 }
 
 @layer utilities {

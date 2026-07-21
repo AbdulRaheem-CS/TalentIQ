@@ -1,0 +1,11 @@
+[
+  { "id": "WM-001", "name": "Jasmine Cole", "email": "jasmine.cole@corvex.io", "role": "Admin", "status": "Active" },
+  { "id": "WM-002", "name": "Simone Delacourt", "email": "simone.delacourt@corvex.io", "role": "Admin", "status": "Active" },
+  { "id": "WM-003", "name": "Jordan Ellison", "email": "jordan.ellison@corvex.io", "role": "Admin", "status": "Active" },
+  { "id": "WM-004", "name": "Ahmed Hassan", "email": "ahmed.hassan@corvex.io", "role": "Recruiter", "status": "Active" },
+  { "id": "WM-005", "name": "Oliver Whitmore", "email": "oliver.whitmore@corvex.io", "role": "Recruiter", "status": "Active" },
+  { "id": "WM-006", "name": "Diego Alvarez", "email": "diego.alvarez@corvex.io", "role": "Hiring Manager", "status": "Active" },
+  { "id": "WM-007", "name": "Camille Rousseau", "email": "camille.rousseau@corvex.io", "role": "Hiring Manager", "status": "Active" },
+  { "id": "WM-008", "name": "Richard Ashworth", "email": "richard.ashworth@corvex.io", "role": "Viewer", "status": "Active" },
+  { "id": "WM-009", "name": "Priya Natarajan", "email": "priya.natarajan@corvex.io", "role": "Hiring Manager", "status": "Invited" }
+]

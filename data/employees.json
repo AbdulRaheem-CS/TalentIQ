@@ -1,0 +1,1744 @@
+[
+  {
+    "id": "EMP-001",
+    "name": "Jordan Ellison",
+    "email": "jordan.ellison@corvex.io",
+    "title": "Chief Executive Officer",
+    "department": "Executive",
+    "managerId": null,
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Executive",
+    "startDate": "2019-03-01",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Closed the Series C and set a three-year platform roadmap the board unanimously backed."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Grew ARR 38% year-over-year while holding headcount growth to 12%."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Drive company-wide growth",
+        "keyResults": [
+          "Grow ARR by 35% year over year",
+          "Expand into two new market segments"
+        ],
+        "progress": 82
+      }
+    ]
+  },
+  {
+    "id": "EMP-002",
+    "name": "Priya Natarajan",
+    "email": "priya.natarajan@corvex.io",
+    "title": "VP of Engineering",
+    "department": "Engineering",
+    "managerId": "EMP-001",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "VP",
+    "startDate": "2019-08-12",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Led the migration off the monolith to services with zero customer-facing downtime."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Cut P1 incident rate by 40% but backfilled two open manager seats slower than planned."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen engineering velocity",
+        "keyResults": [
+          "Reduce average PR review time to under 4 hours",
+          "Increase automated test coverage to 85%"
+        ],
+        "progress": 80
+      },
+      {
+        "objective": "Modernize the data platform",
+        "keyResults": [
+          "Migrate remaining services off the legacy queue",
+          "Stand up real-time event streaming for analytics"
+        ],
+        "progress": 81
+      }
+    ]
+  },
+  {
+    "id": "EMP-003",
+    "name": "Marcus Delacroix",
+    "email": "marcus.delacroix@corvex.io",
+    "title": "VP of Product",
+    "department": "Product",
+    "managerId": "EMP-001",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "VP",
+    "startDate": "2020-01-15",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Shipped the analytics module ahead of schedule; adoption tracking is still thin."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Drove the pricing packaging overhaul that lifted expansion revenue 22%."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Grow self-serve activation",
+        "keyResults": [
+          "Increase trial-to-paid conversion by 15%",
+          "Cut time-to-first-value to under 10 minutes"
+        ],
+        "progress": 72
+      },
+      {
+        "objective": "Deepen customer discovery practice",
+        "keyResults": [
+          "Run 25 customer interviews this quarter",
+          "Ship two features directly sourced from user research"
+        ],
+        "progress": 73
+      }
+    ]
+  },
+  {
+    "id": "EMP-004",
+    "name": "Nadia Farouk",
+    "email": "nadia.farouk@corvex.io",
+    "title": "Head of Design",
+    "department": "Design",
+    "managerId": "EMP-003",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Director",
+    "startDate": "2020-05-04",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Established the design system now used across every product surface."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Ran a strong hiring cycle; design review turnaround still lags engineering's pace."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale the design system",
+        "keyResults": [
+          "Migrate 90% of product surfaces to the new design system",
+          "Cut new-feature design time by 25%"
+        ],
+        "progress": 70
+      },
+      {
+        "objective": "Raise the usability bar across core flows",
+        "keyResults": [
+          "Improve task-success rate in usability testing to 90%",
+          "Reduce support tickets tied to UX confusion by 20%"
+        ],
+        "progress": 71
+      }
+    ]
+  },
+  {
+    "id": "EMP-005",
+    "name": "Bradford Simms",
+    "email": "bradford.simms@corvex.io",
+    "title": "VP of Sales",
+    "department": "Sales",
+    "managerId": "EMP-001",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "VP",
+    "startDate": "2019-10-07",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Enterprise segment beat quota by 14%; mid-market slipped 6% behind plan."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Restructured territories and closed the year at 108% of overall bookings target."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen enterprise expansion motion",
+        "keyResults": [
+          "Land three new enterprise logos this quarter",
+          "Grow net revenue retention to 115%"
+        ],
+        "progress": 84
+      },
+      {
+        "objective": "Exceed quarterly bookings target",
+        "keyResults": [
+          "Close 105% of assigned quota",
+          "Grow average deal size by 12%"
+        ],
+        "progress": 85
+      }
+    ]
+  },
+  {
+    "id": "EMP-006",
+    "name": "Talia Bergstrom",
+    "email": "talia.bergstrom@corvex.io",
+    "title": "VP of Marketing",
+    "department": "Marketing",
+    "managerId": "EMP-001",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "VP",
+    "startDate": "2020-02-19",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Rebrand launch landed cleanly; MQL volume dipped during the transition month."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Pipeline sourced from marketing grew 30%; still building out lifecycle attribution."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale pipeline contribution from marketing",
+        "keyResults": [
+          "Grow marketing-sourced pipeline by 25%",
+          "Improve MQL-to-SQL conversion by 10 points"
+        ],
+        "progress": 82
+      },
+      {
+        "objective": "Sharpen the brand and content engine",
+        "keyResults": [
+          "Publish 12 customer case studies this year",
+          "Grow organic traffic to owned content by 30%"
+        ],
+        "progress": 83
+      }
+    ]
+  },
+  {
+    "id": "EMP-007",
+    "name": "Gabriel Mendoza",
+    "email": "gabriel.mendoza@corvex.io",
+    "title": "VP of Customer Success",
+    "department": "Customer Success",
+    "managerId": "EMP-001",
+    "location": "Toronto",
+    "employmentType": "Full-time",
+    "level": "VP",
+    "startDate": "2020-06-01",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Cut gross churn to 4.1%, the lowest in company history."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "NPS held at 62; onboarding time-to-value target for Q4 was missed by two weeks."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve onboarding time-to-value",
+        "keyResults": [
+          "Cut average onboarding time to 21 days",
+          "Raise onboarding CSAT to 95%"
+        ],
+        "progress": 66
+      },
+      {
+        "objective": "Protect and grow net revenue retention",
+        "keyResults": [
+          "Hold gross churn under 5%",
+          "Grow expansion revenue by 20%"
+        ],
+        "progress": 67
+      }
+    ]
+  },
+  {
+    "id": "EMP-008",
+    "name": "Simone Delacourt",
+    "email": "simone.delacourt@corvex.io",
+    "title": "VP of People",
+    "department": "People",
+    "managerId": "EMP-001",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "VP",
+    "startDate": "2020-03-16",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Rolled out the new leveling framework across all departments."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Reduced average time-to-fill from 52 to 34 days without lowering the offer-acceptance rate."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale hiring without sacrificing quality",
+        "keyResults": [
+          "Cut average time-to-fill to under 30 days",
+          "Maintain offer-acceptance rate above 90%"
+        ],
+        "progress": 80
+      },
+      {
+        "objective": "Strengthen manager effectiveness",
+        "keyResults": [
+          "Roll out manager training to 100% of people leaders",
+          "Improve manager-effectiveness survey score by 10%"
+        ],
+        "progress": 81
+      }
+    ]
+  },
+  {
+    "id": "EMP-009",
+    "name": "Richard Ashworth",
+    "email": "richard.ashworth@corvex.io",
+    "title": "Chief Financial Officer",
+    "department": "Finance",
+    "managerId": "EMP-001",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Executive",
+    "startDate": "2019-05-20",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Tightened the burn multiple from 1.8 to 1.3 without cutting headcount."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Ran a clean audit and closed the year 9% under the approved operating budget."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve capital efficiency",
+        "keyResults": [
+          "Reduce burn multiple to under 1.2",
+          "Cut vendor spend by 10% through contract renegotiation"
+        ],
+        "progress": 86
+      },
+      {
+        "objective": "Tighten financial planning rigor",
+        "keyResults": [
+          "Close the books within 3 business days each month",
+          "Improve forecast accuracy to within 5% of actuals"
+        ],
+        "progress": 87
+      }
+    ]
+  },
+  {
+    "id": "EMP-010",
+    "name": "Diego Alvarez",
+    "email": "diego.alvarez@corvex.io",
+    "title": "Engineering Manager, Platform",
+    "department": "Engineering",
+    "managerId": "EMP-002",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2020-02-10",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Platform team shipped the multi-tenant billing rewrite on schedule."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "On-call load dropped after the alerting cleanup, though sprint estimates still run optimistic."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen engineering velocity",
+        "keyResults": [
+          "Reduce average PR review time to under 4 hours",
+          "Increase automated test coverage to 85%"
+        ],
+        "progress": 81
+      },
+      {
+        "objective": "Modernize the data platform",
+        "keyResults": [
+          "Migrate remaining services off the legacy queue",
+          "Stand up real-time event streaming for analytics"
+        ],
+        "progress": 82
+      }
+    ]
+  },
+  {
+    "id": "EMP-011",
+    "name": "Hannah Kessler",
+    "email": "hannah.kessler@corvex.io",
+    "title": "Engineering Manager, Product Engineering",
+    "department": "Engineering",
+    "managerId": "EMP-002",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2020-06-22",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Delivered the candidate-scoring engine two sprints early with full test coverage."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Strong roadmap execution; code review turnaround time needs tightening."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Modernize the data platform",
+        "keyResults": [
+          "Migrate remaining services off the legacy queue",
+          "Stand up real-time event streaming for analytics"
+        ],
+        "progress": 65
+      },
+      {
+        "objective": "Improve platform reliability",
+        "keyResults": [
+          "Reduce P1 incidents by 30% quarter over quarter",
+          "Get average incident resolution time under 2 hours"
+        ],
+        "progress": 66
+      }
+    ]
+  },
+  {
+    "id": "EMP-012",
+    "name": "Wei Chen",
+    "email": "wei.chen@corvex.io",
+    "title": "Senior Software Engineer",
+    "department": "Engineering",
+    "managerId": "EMP-010",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Senior IC",
+    "startDate": "2019-11-01",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Rebuilt the search indexing pipeline, cutting query latency by 60%."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Mentored two new hires to full productivity within their first month."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve platform reliability",
+        "keyResults": [
+          "Reduce P1 incidents by 30% quarter over quarter",
+          "Get average incident resolution time under 2 hours"
+        ],
+        "progress": 79
+      },
+      {
+        "objective": "Ship the next-gen candidate scoring pipeline",
+        "keyResults": [
+          "Launch v2 scoring model to 100% of traffic",
+          "Cut model inference latency by 40%"
+        ],
+        "progress": 80
+      }
+    ]
+  },
+  {
+    "id": "EMP-013",
+    "name": "Amara Okafor",
+    "email": "amara.okafor@corvex.io",
+    "title": "Software Engineer",
+    "department": "Engineering",
+    "managerId": "EMP-010",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2021-09-13",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Owned the notifications service rewrite with minimal support needed."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Consistently reliable delivery; ready to take on cross-team projects."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Ship the next-gen candidate scoring pipeline",
+        "keyResults": [
+          "Launch v2 scoring model to 100% of traffic",
+          "Cut model inference latency by 40%"
+        ],
+        "progress": 77
+      },
+      {
+        "objective": "Strengthen engineering velocity",
+        "keyResults": [
+          "Reduce average PR review time to under 4 hours",
+          "Increase automated test coverage to 85%"
+        ],
+        "progress": 78
+      }
+    ]
+  },
+  {
+    "id": "EMP-014",
+    "name": "Lucas Ferreira",
+    "email": "lucas.ferreira@corvex.io",
+    "title": "Software Engineer II",
+    "department": "Engineering",
+    "managerId": "EMP-010",
+    "location": "Austin",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-03-07",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 3,
+        "summary": "Solid on well-scoped tickets; needs more practice breaking down ambiguous work."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Noticeable growth in system design conversations this half."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen engineering velocity",
+        "keyResults": [
+          "Reduce average PR review time to under 4 hours",
+          "Increase automated test coverage to 85%"
+        ],
+        "progress": 86
+      },
+      {
+        "objective": "Modernize the data platform",
+        "keyResults": [
+          "Migrate remaining services off the legacy queue",
+          "Stand up real-time event streaming for analytics"
+        ],
+        "progress": 62
+      }
+    ]
+  },
+  {
+    "id": "EMP-015",
+    "name": "Ravi Subramaniam",
+    "email": "ravi.subramaniam@corvex.io",
+    "title": "Senior Software Engineer",
+    "department": "Engineering",
+    "managerId": "EMP-011",
+    "location": "Toronto",
+    "employmentType": "Full-time",
+    "level": "Senior IC",
+    "startDate": "2020-10-19",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Led the migration to the new event bus with no regressions reported."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Excellent technical depth; documentation for handoffs could be more thorough."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Modernize the data platform",
+        "keyResults": [
+          "Migrate remaining services off the legacy queue",
+          "Stand up real-time event streaming for analytics"
+        ],
+        "progress": 67
+      },
+      {
+        "objective": "Improve platform reliability",
+        "keyResults": [
+          "Reduce P1 incidents by 30% quarter over quarter",
+          "Get average incident resolution time under 2 hours"
+        ],
+        "progress": 68
+      }
+    ]
+  },
+  {
+    "id": "EMP-016",
+    "name": "Zoe Whitfield",
+    "email": "zoe.whitfield@corvex.io",
+    "title": "Software Engineer",
+    "department": "Engineering",
+    "managerId": "EMP-011",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-07-25",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Picked up the reporting dashboard feature set quickly after joining."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Reliable contributor; starting to review teammates' pull requests unprompted."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve platform reliability",
+        "keyResults": [
+          "Reduce P1 incidents by 30% quarter over quarter",
+          "Get average incident resolution time under 2 hours"
+        ],
+        "progress": 73
+      },
+      {
+        "objective": "Ship the next-gen candidate scoring pipeline",
+        "keyResults": [
+          "Launch v2 scoring model to 100% of traffic",
+          "Cut model inference latency by 40%"
+        ],
+        "progress": 74
+      }
+    ]
+  },
+  {
+    "id": "EMP-017",
+    "name": "Tomas Novak",
+    "email": "tomas.novak@corvex.io",
+    "title": "QA Engineer",
+    "department": "Engineering",
+    "managerId": "EMP-011",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2021-04-12",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Built the regression suite that caught two release-blocking bugs pre-launch."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Cut manual QA cycle time in half after automating the checkout flow tests."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Ship the next-gen candidate scoring pipeline",
+        "keyResults": [
+          "Launch v2 scoring model to 100% of traffic",
+          "Cut model inference latency by 40%"
+        ],
+        "progress": 90
+      },
+      {
+        "objective": "Strengthen engineering velocity",
+        "keyResults": [
+          "Reduce average PR review time to under 4 hours",
+          "Increase automated test coverage to 85%"
+        ],
+        "progress": 91
+      }
+    ]
+  },
+  {
+    "id": "EMP-018",
+    "name": "Ingrid Solberg",
+    "email": "ingrid.solberg@corvex.io",
+    "title": "Senior Product Manager",
+    "department": "Product",
+    "managerId": "EMP-003",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Senior IC",
+    "startDate": "2020-09-01",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Owned the analytics module launch end-to-end, from discovery to GA."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Strong stakeholder management; roadmap communication to sales could be earlier."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Grow self-serve activation",
+        "keyResults": [
+          "Increase trial-to-paid conversion by 15%",
+          "Cut time-to-first-value to under 10 minutes"
+        ],
+        "progress": 63
+      },
+      {
+        "objective": "Deepen customer discovery practice",
+        "keyResults": [
+          "Run 25 customer interviews this quarter",
+          "Ship two features directly sourced from user research"
+        ],
+        "progress": 64
+      }
+    ]
+  },
+  {
+    "id": "EMP-019",
+    "name": "Devon Wexler",
+    "email": "devon.wexler@corvex.io",
+    "title": "Product Manager",
+    "department": "Product",
+    "managerId": "EMP-003",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-01-10",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 3,
+        "summary": "Delivered the onboarding checklist feature; discovery process needs more rigor."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Noticeably sharper prioritization this half, backed by clearer usage data."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Deepen customer discovery practice",
+        "keyResults": [
+          "Run 25 customer interviews this quarter",
+          "Ship two features directly sourced from user research"
+        ],
+        "progress": 69
+      },
+      {
+        "objective": "Improve roadmap predictability",
+        "keyResults": [
+          "Hit 90% of committed roadmap items on time",
+          "Reduce scope changes mid-sprint by half"
+        ],
+        "progress": 70
+      }
+    ]
+  },
+  {
+    "id": "EMP-020",
+    "name": "Owen Callahan",
+    "email": "owen.callahan@corvex.io",
+    "title": "Senior Product Designer",
+    "department": "Design",
+    "managerId": "EMP-004",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Senior IC",
+    "startDate": "2020-11-16",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Redesigned the candidate pipeline view; usability testing scores jumped 18 points."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Set the visual language for the AI insights surfaces adopted company-wide."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale the design system",
+        "keyResults": [
+          "Migrate 90% of product surfaces to the new design system",
+          "Cut new-feature design time by 25%"
+        ],
+        "progress": 80
+      },
+      {
+        "objective": "Raise the usability bar across core flows",
+        "keyResults": [
+          "Improve task-success rate in usability testing to 90%",
+          "Reduce support tickets tied to UX confusion by 20%"
+        ],
+        "progress": 81
+      }
+    ]
+  },
+  {
+    "id": "EMP-021",
+    "name": "Leilani Kahale",
+    "email": "leilani.kahale@corvex.io",
+    "title": "Product Designer",
+    "department": "Design",
+    "managerId": "EMP-004",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-05-02",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Owned the onboarding flow redesign with minimal senior support."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Craft is improving fast; ready for more ambiguous, less-scoped problems."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Raise the usability bar across core flows",
+        "keyResults": [
+          "Improve task-success rate in usability testing to 90%",
+          "Reduce support tickets tied to UX confusion by 20%"
+        ],
+        "progress": 81
+      },
+      {
+        "objective": "Scale the design system",
+        "keyResults": [
+          "Migrate 90% of product surfaces to the new design system",
+          "Cut new-feature design time by 25%"
+        ],
+        "progress": 82
+      }
+    ]
+  },
+  {
+    "id": "EMP-022",
+    "name": "Camille Rousseau",
+    "email": "camille.rousseau@corvex.io",
+    "title": "Sales Manager, Enterprise",
+    "department": "Sales",
+    "managerId": "EMP-005",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2020-03-23",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Enterprise pod closed the year's largest deal, a $420K ACV logo."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Team hit 112% of quota; forecast accuracy needs tightening next cycle."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve pipeline health",
+        "keyResults": [
+          "Maintain a 4x pipeline-to-quota ratio",
+          "Shorten average sales cycle by 10 days"
+        ],
+        "progress": 62
+      },
+      {
+        "objective": "Strengthen enterprise expansion motion",
+        "keyResults": [
+          "Land three new enterprise logos this quarter",
+          "Grow net revenue retention to 115%"
+        ],
+        "progress": 63
+      }
+    ]
+  },
+  {
+    "id": "EMP-023",
+    "name": "Elena Petrova",
+    "email": "elena.petrova@corvex.io",
+    "title": "Sales Manager, Mid-Market",
+    "department": "Sales",
+    "managerId": "EMP-005",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2021-01-11",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 3,
+        "summary": "Missed quota by 8%; ramp time for two new reps ran longer than planned."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Course-corrected well, closing at 101% after a rebuilt qualification process."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen enterprise expansion motion",
+        "keyResults": [
+          "Land three new enterprise logos this quarter",
+          "Grow net revenue retention to 115%"
+        ],
+        "progress": 68
+      },
+      {
+        "objective": "Exceed quarterly bookings target",
+        "keyResults": [
+          "Close 105% of assigned quota",
+          "Grow average deal size by 12%"
+        ],
+        "progress": 69
+      }
+    ]
+  },
+  {
+    "id": "EMP-024",
+    "name": "Trevor Njoroge",
+    "email": "trevor.njoroge@corvex.io",
+    "title": "Account Executive",
+    "department": "Sales",
+    "managerId": "EMP-022",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2021-06-14",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Top performer on the enterprise pod, closing 130% of quota."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Built a repeatable outbound playbook now used by the rest of the team."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Exceed quarterly bookings target",
+        "keyResults": [
+          "Close 105% of assigned quota",
+          "Grow average deal size by 12%"
+        ],
+        "progress": 85
+      },
+      {
+        "objective": "Improve pipeline health",
+        "keyResults": [
+          "Maintain a 4x pipeline-to-quota ratio",
+          "Shorten average sales cycle by 10 days"
+        ],
+        "progress": 86
+      }
+    ]
+  },
+  {
+    "id": "EMP-025",
+    "name": "Sofia Marchetti",
+    "email": "sofia.marchetti@corvex.io",
+    "title": "Account Executive",
+    "department": "Sales",
+    "managerId": "EMP-022",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-02-28",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Consistent mid-funnel conversion; discovery calls have gotten noticeably sharper."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Closed 104% of quota with the largest average deal size on the pod."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve pipeline health",
+        "keyResults": [
+          "Maintain a 4x pipeline-to-quota ratio",
+          "Shorten average sales cycle by 10 days"
+        ],
+        "progress": 83
+      },
+      {
+        "objective": "Strengthen enterprise expansion motion",
+        "keyResults": [
+          "Land three new enterprise logos this quarter",
+          "Grow net revenue retention to 115%"
+        ],
+        "progress": 84
+      }
+    ]
+  },
+  {
+    "id": "EMP-026",
+    "name": "Kai Anderson",
+    "email": "kai.anderson@corvex.io",
+    "title": "Sales Development Representative",
+    "department": "Sales",
+    "managerId": "EMP-022",
+    "location": "New York",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2023-01-09",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 3,
+        "summary": "Meeting activity metrics but conversion to qualified opportunity is below target."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Reworked outreach sequencing; qualified meeting rate up 25%."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen enterprise expansion motion",
+        "keyResults": [
+          "Land three new enterprise logos this quarter",
+          "Grow net revenue retention to 115%"
+        ],
+        "progress": 64
+      },
+      {
+        "objective": "Exceed quarterly bookings target",
+        "keyResults": [
+          "Close 105% of assigned quota",
+          "Grow average deal size by 12%"
+        ],
+        "progress": 65
+      }
+    ]
+  },
+  {
+    "id": "EMP-027",
+    "name": "Marcus Hollingsworth",
+    "email": "marcus.hollingsworth@corvex.io",
+    "title": "Account Executive",
+    "department": "Sales",
+    "managerId": "EMP-023",
+    "location": "Austin",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2021-11-08",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Steady mid-market performer; closed 98% of quota."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Strong renewal rate on his book; expansion selling still developing."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Exceed quarterly bookings target",
+        "keyResults": [
+          "Close 105% of assigned quota",
+          "Grow average deal size by 12%"
+        ],
+        "progress": 73
+      },
+      {
+        "objective": "Improve pipeline health",
+        "keyResults": [
+          "Maintain a 4x pipeline-to-quota ratio",
+          "Shorten average sales cycle by 10 days"
+        ],
+        "progress": 74
+      }
+    ]
+  },
+  {
+    "id": "EMP-028",
+    "name": "Priyanka Reddy",
+    "email": "priyanka.reddy@corvex.io",
+    "title": "Sales Development Representative",
+    "department": "Sales",
+    "managerId": "EMP-023",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2023-03-20",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Fast ramp for a first SDR role; already exceeding meetings-booked target."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve pipeline health",
+        "keyResults": [
+          "Maintain a 4x pipeline-to-quota ratio",
+          "Shorten average sales cycle by 10 days"
+        ],
+        "progress": 79
+      },
+      {
+        "objective": "Strengthen enterprise expansion motion",
+        "keyResults": [
+          "Land three new enterprise logos this quarter",
+          "Grow net revenue retention to 115%"
+        ],
+        "progress": 80
+      }
+    ]
+  },
+  {
+    "id": "EMP-029",
+    "name": "Nathaniel Osei",
+    "email": "nathaniel.osei@corvex.io",
+    "title": "Marketing Manager",
+    "department": "Marketing",
+    "managerId": "EMP-006",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2020-07-06",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Owned the rebrand rollout across web and product touchpoints."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Content engagement up 20%; paid channel efficiency still being optimized."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Sharpen the brand and content engine",
+        "keyResults": [
+          "Publish 12 customer case studies this year",
+          "Grow organic traffic to owned content by 30%"
+        ],
+        "progress": 85
+      },
+      {
+        "objective": "Scale pipeline contribution from marketing",
+        "keyResults": [
+          "Grow marketing-sourced pipeline by 25%",
+          "Improve MQL-to-SQL conversion by 10 points"
+        ],
+        "progress": 86
+      }
+    ]
+  },
+  {
+    "id": "EMP-030",
+    "name": "Ruby Sinclair",
+    "email": "ruby.sinclair@corvex.io",
+    "title": "Content Marketing Specialist",
+    "department": "Marketing",
+    "managerId": "EMP-029",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-04-18",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Customer story series drove a measurable lift in demo requests."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Organic search traffic to owned content up 34% this half."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale pipeline contribution from marketing",
+        "keyResults": [
+          "Grow marketing-sourced pipeline by 25%",
+          "Improve MQL-to-SQL conversion by 10 points"
+        ],
+        "progress": 63
+      },
+      {
+        "objective": "Sharpen the brand and content engine",
+        "keyResults": [
+          "Publish 12 customer case studies this year",
+          "Grow organic traffic to owned content by 30%"
+        ],
+        "progress": 64
+      }
+    ]
+  },
+  {
+    "id": "EMP-031",
+    "name": "Felix Andersson",
+    "email": "felix.andersson@corvex.io",
+    "title": "Demand Generation Specialist",
+    "department": "Marketing",
+    "managerId": "EMP-029",
+    "location": "London",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-09-12",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 3,
+        "summary": "Campaign volume was strong but cost-per-lead trended above target."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Rebuilt bidding strategy; cost-per-lead down 22% quarter over quarter."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Sharpen the brand and content engine",
+        "keyResults": [
+          "Publish 12 customer case studies this year",
+          "Grow organic traffic to owned content by 30%"
+        ],
+        "progress": 72
+      },
+      {
+        "objective": "Scale pipeline contribution from marketing",
+        "keyResults": [
+          "Grow marketing-sourced pipeline by 25%",
+          "Improve MQL-to-SQL conversion by 10 points"
+        ],
+        "progress": 73
+      }
+    ]
+  },
+  {
+    "id": "EMP-032",
+    "name": "Aisha Rahman",
+    "email": "aisha.rahman@corvex.io",
+    "title": "Customer Success Manager Lead",
+    "department": "Customer Success",
+    "managerId": "EMP-007",
+    "location": "Toronto",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2020-04-27",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Team's book of business renewed at 96%, the highest in company history."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Strong retention results; playbook documentation is still catching up to practice."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Protect and grow net revenue retention",
+        "keyResults": [
+          "Hold gross churn under 5%",
+          "Grow expansion revenue by 20%"
+        ],
+        "progress": 78
+      },
+      {
+        "objective": "Improve onboarding time-to-value",
+        "keyResults": [
+          "Cut average onboarding time to 21 days",
+          "Raise onboarding CSAT to 95%"
+        ],
+        "progress": 79
+      }
+    ]
+  },
+  {
+    "id": "EMP-033",
+    "name": "Connor Blackwood",
+    "email": "connor.blackwood@corvex.io",
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "managerId": "EMP-032",
+    "location": "Toronto",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2021-08-16",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Turned around two at-risk enterprise accounts before renewal."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Highest expansion revenue on the team this half."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve onboarding time-to-value",
+        "keyResults": [
+          "Cut average onboarding time to 21 days",
+          "Raise onboarding CSAT to 95%"
+        ],
+        "progress": 92
+      },
+      {
+        "objective": "Protect and grow net revenue retention",
+        "keyResults": [
+          "Hold gross churn under 5%",
+          "Grow expansion revenue by 20%"
+        ],
+        "progress": 93
+      }
+    ]
+  },
+  {
+    "id": "EMP-034",
+    "name": "Yuki Tanaka",
+    "email": "yuki.tanaka@corvex.io",
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "managerId": "EMP-032",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-06-05",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Consistently high CSAT scores across her portfolio of accounts."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Proactive outreach cadence reduced her book's churn risk flags by half."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Protect and grow net revenue retention",
+        "keyResults": [
+          "Hold gross churn under 5%",
+          "Grow expansion revenue by 20%"
+        ],
+        "progress": 68
+      },
+      {
+        "objective": "Improve onboarding time-to-value",
+        "keyResults": [
+          "Cut average onboarding time to 21 days",
+          "Raise onboarding CSAT to 95%"
+        ],
+        "progress": 69
+      }
+    ]
+  },
+  {
+    "id": "EMP-035",
+    "name": "Malik Thompson",
+    "email": "malik.thompson@corvex.io",
+    "title": "Support Engineer",
+    "department": "Customer Success",
+    "managerId": "EMP-032",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-10-24",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "First-response time consistently under the team's SLA target."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Built the internal macro library that cut average resolution time by 30%."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve onboarding time-to-value",
+        "keyResults": [
+          "Cut average onboarding time to 21 days",
+          "Raise onboarding CSAT to 95%"
+        ],
+        "progress": 82
+      },
+      {
+        "objective": "Protect and grow net revenue retention",
+        "keyResults": [
+          "Hold gross churn under 5%",
+          "Grow expansion revenue by 20%"
+        ],
+        "progress": 83
+      }
+    ]
+  },
+  {
+    "id": "EMP-036",
+    "name": "Oliver Whitmore",
+    "email": "oliver.whitmore@corvex.io",
+    "title": "People Partner",
+    "department": "People",
+    "managerId": "EMP-008",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Senior IC",
+    "startDate": "2020-08-03",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Rolled out the new performance review cycle across engineering and product."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Manager satisfaction scores on HR support hit an all-time high."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale hiring without sacrificing quality",
+        "keyResults": [
+          "Cut average time-to-fill to under 30 days",
+          "Maintain offer-acceptance rate above 90%"
+        ],
+        "progress": 88
+      },
+      {
+        "objective": "Strengthen manager effectiveness",
+        "keyResults": [
+          "Roll out manager training to 100% of people leaders",
+          "Improve manager-effectiveness survey score by 10%"
+        ],
+        "progress": 89
+      }
+    ]
+  },
+  {
+    "id": "EMP-037",
+    "name": "Jasmine Cole",
+    "email": "jasmine.cole@corvex.io",
+    "title": "Technical Recruiter",
+    "department": "People",
+    "managerId": "EMP-008",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2021-05-17",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 5,
+        "summary": "Filled all four open engineering reqs ahead of their target dates."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Strong pipeline generation; offer-to-close time could be tightened."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Strengthen manager effectiveness",
+        "keyResults": [
+          "Roll out manager training to 100% of people leaders",
+          "Improve manager-effectiveness survey score by 10%"
+        ],
+        "progress": 64
+      },
+      {
+        "objective": "Scale hiring without sacrificing quality",
+        "keyResults": [
+          "Cut average time-to-fill to under 30 days",
+          "Maintain offer-acceptance rate above 90%"
+        ],
+        "progress": 65
+      }
+    ]
+  },
+  {
+    "id": "EMP-038",
+    "name": "Ahmed Hassan",
+    "email": "ahmed.hassan@corvex.io",
+    "title": "Recruiter",
+    "department": "People",
+    "managerId": "EMP-008",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-11-14",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Ramped quickly onto go-to-market reqs and hit his first-year hiring target."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Scale hiring without sacrificing quality",
+        "keyResults": [
+          "Cut average time-to-fill to under 30 days",
+          "Maintain offer-acceptance rate above 90%"
+        ],
+        "progress": 70
+      },
+      {
+        "objective": "Strengthen manager effectiveness",
+        "keyResults": [
+          "Roll out manager training to 100% of people leaders",
+          "Improve manager-effectiveness survey score by 10%"
+        ],
+        "progress": 71
+      }
+    ]
+  },
+  {
+    "id": "EMP-039",
+    "name": "Beatrice Lindqvist",
+    "email": "beatrice.lindqvist@corvex.io",
+    "title": "Finance Manager",
+    "department": "Finance",
+    "managerId": "EMP-009",
+    "location": "San Francisco",
+    "employmentType": "Full-time",
+    "level": "Manager",
+    "startDate": "2020-12-01",
+    "status": "Active",
+    "currentRating": 5,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Rebuilt the headcount planning model now used across all departments."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 5,
+        "summary": "Closed the books two days faster each month after the process cleanup."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Improve capital efficiency",
+        "keyResults": [
+          "Reduce burn multiple to under 1.2",
+          "Cut vendor spend by 10% through contract renegotiation"
+        ],
+        "progress": 84
+      },
+      {
+        "objective": "Tighten financial planning rigor",
+        "keyResults": [
+          "Close the books within 3 business days each month",
+          "Improve forecast accuracy to within 5% of actuals"
+        ],
+        "progress": 85
+      }
+    ]
+  },
+  {
+    "id": "EMP-040",
+    "name": "Noah Grunewald",
+    "email": "noah.grunewald@corvex.io",
+    "title": "Financial Analyst",
+    "department": "Finance",
+    "managerId": "EMP-039",
+    "location": "Remote - US",
+    "employmentType": "Full-time",
+    "level": "IC",
+    "startDate": "2022-08-09",
+    "status": "Active",
+    "currentRating": 4,
+    "performanceHistory": [
+      {
+        "period": "2024 H1",
+        "rating": 4,
+        "summary": "Automated the monthly board reporting deck, saving roughly two days per cycle."
+      },
+      {
+        "period": "2024 H2",
+        "rating": 4,
+        "summary": "Reliable, detail-oriented work; ready to own a workstream independently."
+      }
+    ],
+    "okrs": [
+      {
+        "objective": "Tighten financial planning rigor",
+        "keyResults": [
+          "Close the books within 3 business days each month",
+          "Improve forecast accuracy to within 5% of actuals"
+        ],
+        "progress": 79
+      },
+      {
+        "objective": "Improve capital efficiency",
+        "keyResults": [
+          "Reduce burn multiple to under 1.2",
+          "Cut vendor spend by 10% through contract renegotiation"
+        ],
+        "progress": 80
+      }
+    ]
+  }
+]
