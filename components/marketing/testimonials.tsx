@@ -10,6 +10,7 @@ const testimonials = [
     name: "Denise Okafor",
     title: "VP of People",
     company: "Anthem Robotics",
+    photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80",
   },
   {
     quote:
@@ -17,6 +18,7 @@ const testimonials = [
     name: "Marcus Feldman",
     title: "Head of Talent Acquisition",
     company: "Bluecrest Financial",
+    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&q=80",
   },
   {
     quote:
@@ -24,15 +26,9 @@ const testimonials = [
     name: "Renata Silva",
     title: "Chief People Officer",
     company: "Meridian Health Group",
+    photo: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=160&q=80",
   },
 ];
-
-function initials(name: string) {
-  return name
-    .split(" ")
-    .map((part) => part[0])
-    .join("");
-}
 
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
@@ -66,15 +62,18 @@ export function Testimonials() {
           className="mt-2xl grid gap-lg md:grid-cols-3"
         >
           {testimonials.map((t) => (
-            <motion.div key={t.name} variants={cardVariants}>
-              <Card className="flex h-full flex-col justify-between">
+            <motion.div key={t.name} variants={cardVariants} whileHover={{ y: -4 }} transition={{ duration: 0.2 }}>
+              <Card className="flex h-full flex-col justify-between transition-shadow duration-200 hover:shadow-lg">
                 <CardContent className="pt-lg">
                   <p className="text-sm leading-relaxed text-foreground">&ldquo;{t.quote}&rdquo;</p>
                 </CardContent>
                 <CardContent className="flex items-center gap-sm pt-0">
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-semibold text-primary">
-                    {initials(t.name)}
-                  </div>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={t.photo}
+                    alt={t.name}
+                    className="h-9 w-9 shrink-0 rounded-full object-cover"
+                  />
                   <div>
                     <p className="text-sm font-semibold text-foreground">{t.name}</p>
                     <p className="text-xs text-muted-foreground">

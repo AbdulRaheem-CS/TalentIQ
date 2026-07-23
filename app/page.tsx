@@ -1,4 +1,5 @@
 import { Cta } from "@/components/marketing/cta";
+import { DualCtaCards } from "@/components/marketing/dual-cta-cards";
 import { Features } from "@/components/marketing/features";
 import { Footer } from "@/components/marketing/footer";
 import { Hero } from "@/components/marketing/hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <LogoStrip />
+        <DualCtaCards />
         <Features />
         <Testimonials />
         <Cta />

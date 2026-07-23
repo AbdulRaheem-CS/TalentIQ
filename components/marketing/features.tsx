@@ -1,49 +1,9 @@
 "use client";
 
 import { motion, type Variants } from "framer-motion";
-import {
-  Briefcase,
-  ClipboardCheck,
-  HeartHandshake,
-  Network,
-  TrendingUp,
-} from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
-const features = [
-  {
-    icon: Briefcase,
-    title: "AI-Powered Recruitment",
-    description:
-      "Score, rank, and move candidates through a pipeline built for high-volume enterprise hiring — with match scoring across skills, experience, and culture fit.",
-    ai: true,
-  },
-  {
-    icon: TrendingUp,
-    title: "Performance Analytics",
-    description:
-      "Track performance history, ratings, and trends across every team so managers and leadership always know where the org stands.",
-  },
-  {
-    icon: Network,
-    title: "Living Org Chart",
-    description:
-      "Visualize reporting lines across the entire company, updated automatically as your team grows and changes.",
-  },
-  {
-    icon: HeartHandshake,
-    title: "DEI Dashboard",
-    description:
-      "Track representation and leadership diversity by department, with year-over-year trends to hold your org accountable.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Guided Onboarding",
-    description:
-      "Give every new hire a clear checklist, an assigned buddy, and full visibility into ramp progress from day one.",
-  },
-];
+import { features } from "./feature-data";
 
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
@@ -76,10 +36,23 @@ export function Features() {
         className="mt-2xl grid gap-lg sm:grid-cols-2 lg:grid-cols-3"
       >
         {features.map((feature) => (
-          <motion.div key={feature.title} variants={cardVariants}>
-            <Card variant={feature.ai ? "ai" : "default"} className="h-full">
+          <motion.div
+            key={feature.title}
+            id={feature.slug}
+            variants={cardVariants}
+            whileHover={{ y: -6 }}
+            transition={{ duration: 0.2 }}
+            className="scroll-mt-24"
+          >
+            <Card variant={feature.ai ? "ai" : "default"} className="h-full transition-shadow duration-200 hover:shadow-lg">
               <CardHeader className="gap-sm">
-                <div
+                <motion.div
+                  whileHover={
+                    feature.ai
+                      ? { boxShadow: "0 0 0 6px rgb(139 61 246 / 0.18)" }
+                      : { boxShadow: "0 0 0 6px hsl(var(--primary) / 0.14)" }
+                  }
+                  transition={{ duration: 0.25 }}
                   className={
                     feature.ai
                       ? "flex h-10 w-10 items-center justify-center rounded-md bg-gradient-to-br from-violet-500 to-navy-600 text-white"
@@ -87,7 +60,7 @@ export function Features() {
                   }
                 >
                   <feature.icon className="h-5 w-5" />
-                </div>
+                </motion.div>
                 <CardTitle className="flex items-center gap-2">
                   {feature.title}
                   {feature.ai && <Badge variant="ai">AI</Badge>}

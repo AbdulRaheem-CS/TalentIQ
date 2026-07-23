@@ -1,0 +1,34 @@
+<svg viewBox="0 0 460 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markGradientNav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338CA"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="nodeGradientNav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: rounded square badge -->
+  <rect x="10" y="10" width="120" height="120" rx="28" fill="url(#markGradientNav)"/>
+
+  <!-- Network of connected nodes, forming an abstract "person + intelligence" motif -->
+  <g stroke="#C7D2FE" stroke-width="2.5" stroke-linecap="round">
+    <line x1="70" y1="45" x2="45" y2="75"/>
+    <line x1="70" y1="45" x2="95" y2="75"/>
+    <line x1="45" y1="75" x2="70" y2="100"/>
+    <line x1="95" y1="75" x2="70" y2="100"/>
+    <line x1="45" y1="75" x2="95" y2="75"/>
+  </g>
+  <circle cx="70" cy="45" r="7" fill="#FFFFFF"/>
+  <circle cx="45" cy="75" r="6" fill="#E0E7FF"/>
+  <circle cx="95" cy="75" r="6" fill="#E0E7FF"/>
+  <circle cx="70" cy="100" r="7" fill="url(#nodeGradientNav)"/>
+
+  <!-- Spark accent, top-right of badge, signals "AI/insight" -->
+  <path d="M104 28 L107.5 36 L116 39.5 L107.5 43 L104 51 L100.5 43 L92 39.5 L100.5 36 Z" fill="#A78BFA"/>
+
+  <!-- Wordmark, vertically centered against the icon (no tagline at this scale) -->
+  <text x="155" y="82" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#1E1B4B">Talent<tspan fill="#7C3AED">IQ</tspan></text>
+</svg>
